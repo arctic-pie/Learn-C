@@ -1,15 +1,10 @@
-//
-//  main.c
-//  Lab
-//
-//  Created by Ksenia Grigoryeva on 18/03/2018.
-//  Copyright © 2018 Ksenia Grigoryeva. All rights reserved.
-//
-
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    for (int a = 0; a < 5; a++) {
+        printf("a");
+        printf("b");
+    }
+    
     return 0;
 }

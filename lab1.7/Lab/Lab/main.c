@@ -2,8 +2,5 @@
 
 int main ()
 {
-    int x;
-    
-    x = EOF;
-    printf("%d\n", x);
+    printf("EOF is equal %d\n", EOF);
 }

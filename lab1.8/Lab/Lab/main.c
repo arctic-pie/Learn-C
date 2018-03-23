@@ -9,7 +9,7 @@ int main() {
     
     spaces = 0;
     tabs = 0;
-    nl = 0;
+    newlines = 0;
     
     while ((character = getchar()) != EOF) {
         if (character == ' ') {
@@ -17,10 +17,10 @@ int main() {
         } else if (character == '\t') {
             ++tabs;
         } else if (character == '\n') {
-            ++nl;
+            ++newlines;
         }
     }
     
-    printf("\nSpaces: %d\nTabs: %d\nNewlines: %d\n", spaces, tabs, nl);
+    printf("\nSpaces: %d\nTabs: %d\nNewlines: %d\n", spaces, tabs, newlines);
 }
 

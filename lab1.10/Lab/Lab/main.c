@@ -11,7 +11,7 @@
 // В остальных случаях выводим исходный символ
 
 int main() {
-    printf("To terminate a program, press \"Ctrl\" + \"D\"\nInsert text:\n");
+    printf("To terminate a program, press \"Ctrl\" + \"D\".\nTo remove a char, press \"Ctrl\" + \"H\".\nInsert text:\n");
     
     char character;
     
@@ -26,5 +26,4 @@ int main() {
             putchar(character);
         }
     }
-// >> не заменяет backspace, завершает по enter
 }
